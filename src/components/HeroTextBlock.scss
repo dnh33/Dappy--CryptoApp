@@ -1,0 +1,29 @@
+.heroOne {
+
+  &__headline {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 128%;
+    color: #1f2431;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 165%;
+    color: #82899b;
+  }
+}
+
+.heroOne__button {
+  color: white;
+  width: 215px;
+  height: 40px;
+  background-color: #315efb;
+  border-radius: 51px;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
