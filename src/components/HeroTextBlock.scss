@@ -1,6 +1,9 @@
 .heroOne {
-
+  margin-left: 3.375rem;
+  max-width: 593px;
+  flex: 1;
   &__headline {
+    margin-top: 92px;
     font-size: 36px;
     font-weight: 700;
     line-height: 128%;
@@ -16,14 +19,14 @@
 }
 
 .heroOne__button {
-  color: white;
+  background-color: #315efb;
   width: 215px;
   height: 40px;
-  background-color: #315efb;
-  border-radius: 51px;
-  cursor: pointer;
+  color: white;
   display: flex;
-  flex: 1;
+  margin-top: 5%;
   justify-content: center;
   align-items: center;
+  border-radius: 51px;
+  cursor: pointer;
 }

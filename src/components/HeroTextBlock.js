@@ -5,10 +5,14 @@ export default function HeroTextBlock() {
   return (
     <div className="heroOne">
       <h1 className="heroOne__headline">
-        Create your first decentralized wallet
+        Create your first
+        <br />
+        decentralized wallet
       </h1>
       <h2 className="heroOne__subtitle">
-        The easiest way to manage multiple cryptocurrency assets
+        The easiest way to manage
+        <br />
+        multiple cryptocurrency assets
       </h2>
       <div className="heroOne__button">
         <p>create wallet</p>
