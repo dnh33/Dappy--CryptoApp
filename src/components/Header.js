@@ -16,9 +16,9 @@ export default function Header() {
         <div className="header--left">
           <DappyLogo className="logo"/>
           <ul>
-            <li><a href="/">How it works</a></li>
-            <li><a href="/">Blog</a></li>
-            <li><a href="/">Support</a></li>
+            <li><a href="/howto">How it works</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/support">Support</a></li>
           </ul>
         </div>
         <div className="header--right">
