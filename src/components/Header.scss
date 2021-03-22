@@ -1,13 +1,41 @@
-header {
-
-}
-
-header * {
+header * { // puts our links on a straight line
   display: inline;
 }
 
-nav {
+nav { 
   height: 1.5rem;
   width: 100px;
+  align-self: center;
 }
 
+nav a {
+  font-size: 16px;
+  color: #1f2431;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header--right {
+  vertical-align: middle;
+}
+
+.logo{
+  vertical-align:middle;
+  width: 120px;
+  height: 24px;
+}
+
+@media screen and (max-width: 700px) {
+  nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    /* If you want the text to be left-aligned on small screens */
+  }
+}

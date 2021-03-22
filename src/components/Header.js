@@ -9,10 +9,12 @@ import { ReactComponent as DappyLogo } from '../img/Logo.svg'
 
 export default function Header() {
   return (
+    <>
     <header>
       <nav>
+        <div className="flexContainer">
         <div className="header--left">
-          <DappyLogo />
+          <DappyLogo className="logo"/>
           <ul>
             <li><a href="/">How it works</a></li>
             <li><a href="/">Blog</a></li>
@@ -20,13 +22,15 @@ export default function Header() {
           </ul>
         </div>
         <div className="header--right">
-          <img src={twatter} alt="Twitter" />
-          <img src={github} alt="Github" />
-          <img src={reddit} alt="Reddit" />
-          <img src={bsv} alt="Bitcoin Satoshi Vision" />
-          <img src={coingeek} alt="Coingeek" />
+          <a href="https://twitter.com/BitcoinAssn" ><img src={twatter} alt="Twitter" className="twatter" /></a>
+          <a href="https://github.com/bitcoin-sv" ><img src={github} alt="Github" className="github" /></a>
+          <a href="https://www.reddit.com/r/bitcoinsv/" ><img src={reddit} alt="Reddit" className="reddit" /></a>
+          <a href="https://bitcoinsv.io/" ><img src={bsv} alt="Bitcoin Satoshi Vision" className="bitcorn" /></a>
+          <a href="https://coingeek.com/" ><img src={coingeek} alt="Coingeek" className="coingeek" /></a>
+        </div>
         </div>
       </nav>
     </header>
+    </>
   )
 }
