@@ -16,8 +16,8 @@ export default function Header() {
         <div className="header--left">
           <DappyLogo className="logo"/>
           <ul>
-            <li><a href="/howto">How it works</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="https://bitcoinsv.academy/course/introduction-to-bitcoin-development">How it works</a></li>
+            <li><a href="https://coingeek.com/bitcoin-as-computer-theory-of-bitcoin-bitcoin-class-looks-at-matrix-operations-logic-and-microprocessors/">Blog</a></li>
             <li><a href="/support">Support</a></li>
           </ul>
         </div>
