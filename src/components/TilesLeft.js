@@ -1,4 +1,6 @@
 import React from 'react'
+import { ReactComponent as OpenSource } from '../img/opensauce.svg'
+import { ReactComponent as Roadmap } from '../img/roadmap.svg'
 import './TilesLeft.scss'
 
 export default function TilesLeft() {
@@ -6,7 +8,7 @@ export default function TilesLeft() {
     <div className="tiles__left">
       <div className="tiles__one">
         <p className="tiles__one--txt">
-        Dappy is a light wallet powered by RUN.network. It uses Faiä
+          Dappy is a light wallet powered by RUN.network. It uses Faiä
         <br />
         decentralized storage and encryption option. Dappy doesn't
         <br />
@@ -19,12 +21,19 @@ export default function TilesLeft() {
       </div>
 
       <div className="tiles__two">
-
+        <h1 className="tiles__left--headline">
+          Free and open source
+        </h1>
+        <OpenSource className="tiles__four--img" />
+        <p className="tiles__two--txt">
+        Fully open and transparent wallet. Our code is
+        <br />
+        <span className="big-txt">open source</span> and trusted by Blockstack Team.
+        </p>
       </div>
-
-      <div className="tiles__three">
-
+        <div className="tiles__three">
+          <Roadmap />
+        </div>
       </div>
-    </div>
   )
 }

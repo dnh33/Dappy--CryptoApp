@@ -1,9 +1,22 @@
+.big-txt {
+  font-weight: 800;
+  color: #1f2431;
+}
+
 .tiles__left {
   color: #82899b;
   font-size: 16px;
   font-weight: 300;
   line-height: 183%;
-  margin-left: 2%;
+  margin-left: 2.5%;
+
+  &--headline {
+    padding: 35px 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2431;
+    text-transform: uppercase;
+  }
 }
 
 .tiles__one {
@@ -15,4 +28,25 @@
   justify-content: center;
   align-items: center;
   flex: 1;
+
+}
+
+.tiles__two {
+  width: 565px;
+  height: 440px;
+  margin-top: 0.625rem;
+  background-color: #fafcff;
+  border-radius: 6px;
+  
+  &--txt {
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 183%;
+    color: #82899b;
+  }
+}
+
+.tiles__three {
+  margin-top: 0.625rem;
 }
