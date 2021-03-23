@@ -1,21 +1,20 @@
 import React from 'react'
+import './TilesLeft.scss'
 
 export default function TilesLeft() {
   return (
     <div className="tiles__left">
       <div className="tiles__one">
         <p className="tiles__one--txt">
-        Dappy is a light wallet powered by Handcash. It uses Faia
-        <br /> 
+        Dappy is a light wallet powered by RUN.network. It uses Faia
+        <br />
         decentralized storage and encryption option. Dappy doesn't
-        <br /> 
-        store or proceed user private key, all data are securely 
         <br />
-        stored in the Top Secret underground bunker. Dappy was
-        <br /> 
-        created by a small passionate team that trust in 
+        store or proceed user private key, the all data are securely
         <br />
-        Satoshi's Vision and decentralized applications.
+        stored in the Faia. Dappy was created by the nChain Net that
+        <br />
+        trust in Satoshi Nakamoto's Vision.
         </p>
       </div>
 

@@ -1,7 +1,15 @@
 .tiles__left {
-  color: #82899B;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 183%;
+  color: #82899b;
 }
 
 .tiles__one {
+  width: 565px;
+  height: 220px;
   background-color: #FAFCFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
