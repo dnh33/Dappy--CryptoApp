@@ -5,7 +5,7 @@ import TilesRight from './TilesRight'
 
 export default function Tiles() {
   return (
-    <div>
+    <div className="tiles">
       <TilesLeft />
       <TilesRight />
     </div>
