@@ -12,7 +12,7 @@ export default function TilesLeft() {
         <br />
         store or proceed user private key, the all data are securely
         <br />
-        stored in the Faïa. Dappy was created by the nChain Net that
+        stored in the Faïa. Dappy was created by Taal and nChain who
         <br />
         trust in Satoshi Nakamoto's Vision.
         </p>
