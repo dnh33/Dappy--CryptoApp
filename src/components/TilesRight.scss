@@ -1,23 +1,35 @@
-.tiles__right {}
+.tiles__right {
+  max-width: 35.3125rem;
+  margin-right: 2%;
+}
 
 .tiles__four {
-  width: 565px;
+  max-width: 35.3125rem;
   height: 505px;
   background-color: #fafcff;
   border-radius: 6px;
-  padding: 35px 40px;
+  flex: 1;
 
   &--headline {
-    font-size: 2px;
+    padding: 35px 40px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #1f2431;
     text-transform: uppercase;
   }
 
+  &--img {
+    margin-top: 4.3125rem;
+    display: block;
+    margin: 49px auto;
+  }
+
   &--txt {
+    padding: 0 40px;
     font-size: 16px;
     font-weight: 300;
     line-height: 183%;
     color: #82899b;
   }
+
 }

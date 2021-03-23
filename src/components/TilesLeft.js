@@ -6,15 +6,15 @@ export default function TilesLeft() {
     <div className="tiles__left">
       <div className="tiles__one">
         <p className="tiles__one--txt">
-        Dappy is a light wallet powered by RUN.network. It uses Faïa
+        Dappy is a light wallet powered by RUN.network. It uses Faiä
         <br />
         decentralized storage and encryption option. Dappy doesn't
         <br />
         store or proceed user private key, the all data are securely
         <br />
-        stored in the Faïa. Dappy was created by Taal and nChain who
+        stored in the Faiä. Dappy was created by Taal and nChain who
         <br />
-        trust in Satoshi Nakamoto's Vision.
+        believe in Satoshi Nakamoto's Vision.
         </p>
       </div>
 
