@@ -10,13 +10,18 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__about">
-
+        <h1 className="footer__contact--title">About</h1>
+        <ul className="footer__about--links">
+          <li><a href="https://bitcoinsv.academy/course/introduction-to-bitcoin-development">How it works</a></li>
+          <li><a href="https://coingeek.com/bitcoin-as-computer-theory-of-bitcoin-bitcoin-class-looks-at-matrix-operations-logic-and-microprocessors/">Blog</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
       </div>
 
       <div className="footer__contact">
-        <h1 className="footer__contact--title">Newsletter</h1>
+        <h1 className="footer__contact--title">Contact</h1>
         <h2 className="footer__contact--email">
-        hello@dappywallet.com
+          hello@dappywallet.com
         </h2>
         <div className="footer__contact--SoMe">
           <a href="https://twitter.com/BitcoinAssn" ><img src={twatter} alt="Twitter" className="twatter" /></a>

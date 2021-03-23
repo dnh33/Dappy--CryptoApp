@@ -1,3 +1,19 @@
 .footer {
   margin-top: 169px;
+  display: flex;
+
+  &__contact--title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &__about {
+    margin-right: 10.3125rem;
+  }
+  &__newsletter {
+    margin-right: 10.3125rem;
+  }
+}
+
+.footer__about--links a{
+  text-decoration: none;
 }
