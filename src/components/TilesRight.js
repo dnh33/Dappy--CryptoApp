@@ -37,9 +37,9 @@ export default function TilesRight() {
           Exchange
       </h1>
         <p className="tiles__six--txt">
-        In-app exchange is supported by Agern, it
+        In-app exchange is supported by Acorn, it
         <br />
-        allows to convert coins to each other in the most
+        allows to convert tokens to each other in the most
         <br />
         intuitive and easiest way.
         </p>

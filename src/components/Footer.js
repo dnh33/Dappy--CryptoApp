@@ -12,9 +12,9 @@ export default function Footer() {
       <div className="footer__about">
         <h1 className="footer__contact--title">About</h1>
         <ul className="footer__about--links">
-          <li><a href="https://bitcoinsv.academy/course/introduction-to-bitcoin-development">How it works</a></li>
-          <li><a href="https://coingeek.com/bitcoin-as-computer-theory-of-bitcoin-bitcoin-class-looks-at-matrix-operations-logic-and-microprocessors/">Blog</a></li>
-          <li><a href="/support">Support</a></li>
+          <li><a href="https://bitcoinsv.academy/course/introduction-to-bitcoin-development">Introducing</a></li>
+          <li><a href="https://coingeek.com/bitcoin-as-computer-theory-of-bitcoin-bitcoin-class-looks-at-matrix-operations-logic-and-microprocessors/">Terms of Service</a></li>
+          <li><a href="/support">Privacy Policy</a></li>
         </ul>
       </div>
 
@@ -37,9 +37,9 @@ export default function Footer() {
         <h2 className="footer__newsletter--subtitle">
           Please enter your e-mail if want to receive updates.
         </h2>
-        <form class="Signup__form" id="newsletter">
-          <input required id="email" type="email" placeholder="Your e-mail" />
-          <button form="newsletter" type="submit" class="Signup__button">Get offers</button>
+        <form class="signup__form" id="newsletter">
+          <input id="email" type="email" placeholder="Your e-mail" />
+          <button form="newsletter" type="submit" class="signup__button">Subscribe</button>
         </form>
       </div>
     </footer>

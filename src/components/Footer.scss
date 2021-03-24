@@ -1,26 +1,117 @@
 .footer {
-  margin-top: 169px;
+  margin-top: 69px;
   display: flex;
 
+  &__about {
+    white-space: nowrap;
+    margin-right: 162px;
+    margin-bottom: 4rem;
+
+    &--links {
+      margin-top: 1.25rem;
+    }
+
+    &--links a {
+      display: block;
+      color: #82899b;
+      text-decoration: none;
+      margin-bottom: 0.625rem;
+    }
+  }
+
   &__contact {
+    margin-right: 7.3125rem;
+
     &--title {
       font-size: 16px;
       font-weight: bold;
     }
 
-    &--SoMe {}
-  }
+    &--email {
+      margin-top: 1.25rem;
+      font-size: 16px;
+      color: #82899b;
+    }
 
-  &__about {
-    margin-right: 10.3125rem;
+    &--SoMe {
+      margin-top: 35px;
 
-    &--links a {
-      text-decoration: none;
+      a {
+        margin-right: 10px;
+      }
     }
   }
 
-
   &__newsletter {
     margin-right: 10.3125rem;
+
+    &--title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1f2431;
+    }
+
+    &--subtitle {
+      margin-top: 1.25rem;
+      font-size: 16px;
+      color: #82899b;
+    }
+  }
+}
+
+
+
+.signup__button {
+  width: 106px;
+  height: 39px;
+  color: white;
+  margin-top: -1px;
+  background: #315EFB;
+  border: 1px solid #315EFB;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  vertical-align: middle;
+  padding: 10px;
+  cursor: pointer;
+
+
+}
+
+input#email {
+  padding-left: 14px;
+}
+
+#email {
+  color: #82899B;
+  margin-top: 20px;
+  width: 218px;
+  height: 39px;
+  border: 1px solid #82899B;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  ::placeholder {
+    padding-left: 15px;
+  }
+
+
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
