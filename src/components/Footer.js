@@ -12,8 +12,8 @@ export default function Footer() {
       <div className="footer__about">
         <h1 className="footer__contact--title">About</h1>
         <ul className="footer__about--links">
-          <li><a href="https://bitcoinsv.academy/course/introduction-to-bitcoin-development">Introducing</a></li>
-          <li><a href="https://coingeek.com/bitcoin-as-computer-theory-of-bitcoin-bitcoin-class-looks-at-matrix-operations-logic-and-microprocessors/">Terms of Service</a></li>
+          <li><a href="https://bitcoinsv.academy/course/introduction-to-bitcoin-development" target="_blank" rel="noreferrer">Introducing</a></li>
+          <li><a href="https://coingeek.com/bitcoin-as-computer-theory-of-bitcoin-bitcoin-class-looks-at-matrix-operations-logic-and-microprocessors/" target="_blank" rel="noreferrer">Terms of Service</a></li>
           <li><a href="/support">Privacy Policy</a></li>
         </ul>
       </div>
@@ -24,21 +24,21 @@ export default function Footer() {
           hello@dappywallet.com
         </h2>
         <div className="footer__contact--SoMe">
-          <a href="https://twitter.com/BitcoinAssn" ><img src={twatter} alt="Twitter" className="twatter" /></a>
-          <a href="https://github.com/bitcoin-sv" ><img src={github} alt="Github" className="github" /></a>
-          <a href="https://www.reddit.com/r/bitcoinsv/" ><img src={reddit} alt="Reddit" className="reddit" /></a>
-          <a href="https://bitcoinsv.io/" ><img src={bsv} alt="Bitcoin Satoshi Vision" className="bitcorn" /></a>
-          <a href="https://coingeek.com/" ><img src={coingeek} alt="Coingeek" className="coingeek" /></a>
+          <a href="https://twitter.com/BitcoinAssn" target="_blank" rel="noreferrer"><img src={twatter} alt="Twitter" className="twatter" /></a>
+          <a href="https://github.com/bitcoin-sv" target="_blank" rel="noreferrer"><img src={github} alt="Github" className="github" /></a>
+          <a href="https://www.reddit.com/r/bitcoinsv/" target="_blank" rel="noreferrer"><img src={reddit} alt="Reddit" className="reddit" /></a>
+          <a href="https://bitcoinsv.io/" target="_blank" rel="noreferrer"><img src={bsv} alt="Bitcoin Satoshi Vision" className="bitcorn" /></a>
+          <a href="https://coingeek.com/" target="_blank" rel="noreferrer"><img src={coingeek} alt="Coingeek" className="coingeek" /></a>
         </div>
       </div>
 
       <div className="footer__newsletter">
         <h1 className="footer__newsletter--title">Newsletter</h1>
         <h2 className="footer__newsletter--subtitle">
-          Please enter your e-mail if want to receive updates.
+          Please enter your e-mail to receive updates.
         </h2>
         <form class="signup__form" id="newsletter">
-          <input id="email" type="email" placeholder="Your e-mail" />
+          <input required id="email" type="email" placeholder="Your e-mail" />
           <button form="newsletter" type="submit" class="signup__button">Subscribe</button>
         </form>
       </div>

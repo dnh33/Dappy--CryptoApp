@@ -15,7 +15,7 @@ export default function HeroTextBlock() {
         multiple cryptocurrency assets
       </h2>
       <div className="heroOne__button">
-        <p>create wallet</p>
+        <a href="https://handcash.io/" alt="handcash link" target="_blank" rel="noreferrer">create wallet</a>
       </div>
     </div>
   )
