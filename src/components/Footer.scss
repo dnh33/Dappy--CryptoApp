@@ -2,18 +2,25 @@
   margin-top: 169px;
   display: flex;
 
-  &__contact--title {
-    font-size: 16px;
-    font-weight: bold;
+  &__contact {
+    &--title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &--SoMe {}
   }
+
   &__about {
     margin-right: 10.3125rem;
+
+    &--links a {
+      text-decoration: none;
+    }
   }
+
+
   &__newsletter {
     margin-right: 10.3125rem;
   }
-}
-
-.footer__about--links a{
-  text-decoration: none;
 }

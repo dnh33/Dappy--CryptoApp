@@ -1,3 +1,4 @@
+/* reset */
 * {
   padding: 0;
   margin: 0;
@@ -9,4 +10,10 @@ body {
   height: 100vh;
   margin: 38px auto;
   font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
