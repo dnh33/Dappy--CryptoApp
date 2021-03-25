@@ -15,7 +15,9 @@ export default function HeroTextBlock() {
         multiple cryptocurrency assets
       </h2>
       <div className="heroOne__button">
-        <a href="https://handcash.io/" alt="handcash link" target="_blank" rel="noreferrer">create wallet</a>
+        <a href="https://handcash.io/" alt="handcash link" target="_blank" rel="noreferrer"
+          //eslint-disable-next-line
+          onClick={gtag("event", "cta", "https://handcash.io/")}>create wallet</a>
       </div>
     </div>
   )
