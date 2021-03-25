@@ -12,7 +12,7 @@ export default function TilesLeft() {
         <br />
         decentralized storage and encryption option. Dappy doesn't
         <br />
-        store or proceed user private key, the all data are securely
+        store or process user private key, all the data are securely
         <br />
         stored in the Faiä. Dappy was created by Taal and nChain who
         <br />
