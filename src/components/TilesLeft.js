@@ -28,7 +28,7 @@ export default function TilesLeft() {
         <p className="tiles__two--txt">
         Fully open and transparent wallet. Our code is
         <br />
-        <span className="big-txt">open source</span> and trusted by Blockstack Team.
+        <span className="big-txt">open source</span> and trusted by the Bitcoin community.
         </p>
       </div>
         <div className="tiles__three">
